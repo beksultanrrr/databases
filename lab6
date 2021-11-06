@@ -5,9 +5,10 @@ select *from dealer
     cross join  client
 
 b)
-select dealer.name, client.name, city
+select dealer.name, client.name, city,priority,sell.id,date,amount
     from dealer
          join client on dealer.id = client.dealer_id
+         join sell on client.id = sell.client_id
 
 
 
