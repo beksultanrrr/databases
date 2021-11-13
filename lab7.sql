@@ -20,7 +20,6 @@ create table transactions (
     amount float,
     status varchar(20)
 );
-begin
 
 INSERT INTO customers VALUES (201, 'John', '2021-11-05');
 INSERT INTO customers VALUES (202, 'Anny', '2021-11-02');
